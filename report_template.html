@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Execution Report</title>
+    <style>
+        /* General Reset and Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        td {
+            background-color: #ecf0f1;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1c40f;
+        }
+
+        .screenshot-cell {
+            text-align: center;
+        }
+
+        .screenshot {
+            max-width: 100%;
+            max-height: 200px;
+            border: 1px solid #ddd;
+            padding: 2px;
+            background-color: #f7f7f7;
+        }
+
+        /* Adding a responsive design for smaller screens */
+        @media screen and (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Execution Report</h1>
+    <table>
+        <tr>
+            <th>Step No</th>
+            <th>Description</th>
+            <th>Expected Result</th>
+            <th>Screenshot</th>
+            <th>Result</th>
+        </tr>
+        {% for test_result in test_results %}
+            <tr>
+                <td>{{ test_result['step_no'] }}</td>
+                <td>{{ test_result['description'] }}</td>
+                <td>{{ test_result['expected_result'] }}</td>
+                <TD valign=top>Not Applicable</TD>
+                <td>{{ test_result['result'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
