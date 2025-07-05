@@ -1,0 +1,7 @@
+pandas
+jinja2
+mss
+langchain
+langchain-google-genai
+python-dotenv
+browser-use
