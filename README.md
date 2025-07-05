@@ -35,7 +35,7 @@ Open Google homepage	Google homepage is loaded
 Search "Python"	Python results are displayed
 
 🖥️ Technologies Used
-✅ Python
+✅ Python 3.11 and above
 
 ✅ LangChain
 
@@ -51,7 +51,9 @@ Search "Python"	Python results are displayed
 
 **📌 Getting Started**
 Clone the repo:
+
 git clone https://github.com/kulkarniajays/AI-Agent-Browser-Automation.git
+
 cd AI-Agent-Browser-Automation
 
 **Install dependencies:**
