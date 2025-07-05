@@ -1,8 +1,11 @@
 🧠 AI Agent Driven Test Automation Framework
+
 🚀 Revolutionize Testing — No Manual Intervention Needed
+
 I’ve created a powerful AI-driven framework that completely simplifies web test automation. Say goodbye to writing locators, frameworks, or scripts. Just provide your test steps in plain English inside an Excel sheet — and the AI agent handles everything from execution to reporting.
 
 🔍 How It Works
+
 ✅ Zero Manual Effort
 Just write your test steps in Excel — no locators, no code.
 
