@@ -48,7 +48,12 @@ Open Google homepage
 
 Google homepage is loaded
 
-Search "Python"	Python results are displayed
+Search "Python"	Python results are displayed**
+
+**Make changes****
+
+Make sure to update the folder path for the test cases and the report template in the AI_Agent_Chromium_Browser.py file.
+
 
 **🖥️ Technologies Used**
 
