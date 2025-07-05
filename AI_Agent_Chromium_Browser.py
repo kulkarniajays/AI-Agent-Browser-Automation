@@ -160,7 +160,7 @@ async def execute_tasks_from_excel(task_steps, task_numbers, excel_name, df):
 
 # Validation function to process all Excel files and generate reports
 async def validation():
-    folder_path = 'E:\\Users\\kulka\\PycharmProjects\\AI_Agent_Browser_Use\\Testcases\\'  # Change this to the actual folder path
+    folder_path = ''  # Change this to the actual folder path
 
     # List all Excel files in the folder
     excel_files = [f for f in os.listdir(folder_path) if f.endswith('.xlsx')]
@@ -205,7 +205,7 @@ async def validation():
                                         f"{os.path.splitext(excel_file)[0]}_Automation_Report_{current_datetime}.html")
 
         # Path to the HTML template file
-        template_file = 'E:\\Users\\kulka\\PycharmProjects\\AI_Agent_Browser_Use\\Report_Template\\report_template.html'  # Path to the template file
+        template_file = ''  # Path to the template file
 
         # After processing the current Excel file, generate the HTML report
         generate_html_report(report_data, template_file, report_file_name)
