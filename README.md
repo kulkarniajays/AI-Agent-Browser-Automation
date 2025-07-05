@@ -25,19 +25,33 @@ Custom reports with screenshots, step descriptions, results, and timestamps — 
 Execution errors are logged with full context and timestamps to help identify root causes.
 
 📁 Key Components
+
 Component	Description
-main.py	Main execution logic
+
+AI_Agent_Chromium_Browser.py	Main execution logic
+
 requirements.txt	Dependencies list
+
 Testcases/	Excel files containing plain-English test cases
+
 Report_Template/	Jinja2-based HTML template for detailed reporting
+
 .env	Securely holds your Gemini API key (not committed to GitHub)
 
-🧪 Sample Excel Format
-step_description	Expected_Outcome
-Open Google homepage	Google homepage is loaded
+**🧪 Sample Excel Format**
+
+step_description
+
+Expected_Outcome
+
+Open Google homepage
+
+Google homepage is loaded
+
 Search "Python"	Python results are displayed
 
-🖥️ Technologies Used
+**🖥️ Technologies Used**
+
 ✅ Python 3.11 and above
 
 ✅ LangChain
@@ -53,6 +67,7 @@ Search "Python"	Python results are displayed
 ✅ mss
 
 **📌 Getting Started**
+
 Clone the repo:
 
 git clone https://github.com/kulkarniajays/AI-Agent-Browser-Automation.git
